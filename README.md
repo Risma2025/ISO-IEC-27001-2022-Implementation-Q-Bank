@@ -47,7 +47,7 @@ I created the **Q Bank** project to demonstrate how to translate theoretical ISO
 * **Purpose:** To identify internal/external factors affecting the bank's security.
 * **Summary:** Analyzes Q Bank's **Strengths** (Infrastructure), **Weaknesses** (Legacy systems), **Opportunities** (Zero Trust), and **Threats** (Ransomware).
 * **Key Concept:** Helps prioritize where security is most needed.
-> **[📂 Open Document: 01_SWOT_Analysis_Q_Bank.pdf](./01_SWOT_Analysis_Q_Bank.pdf)**
+> **[📂 Open Document:01_SWOT_Analysis_Q_Bank.pdf](./01_SWOT%20_Analysis_Q_Bank.pdf)**
 
 #### 2. ISMS Scope Document
 * **Purpose:** To draw a "boundary" around what the framework protects.
