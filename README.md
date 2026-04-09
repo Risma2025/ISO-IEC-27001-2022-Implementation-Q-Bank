@@ -47,19 +47,19 @@ I created the **Q Bank** project to demonstrate how to translate theoretical ISO
 * **Purpose:** To identify internal/external factors affecting the bank's security.
 * **Summary:** Analyzes Q Bank's **Strengths** (Infrastructure), **Weaknesses** (Legacy systems), **Opportunities** (Zero Trust), and **Threats** (Ransomware).
 * **Key Concept:** Helps prioritize where security is most needed.
-> **[View Document: 01_SWOT _Analysis_Q_Bank.pdf](./01_SWOT _Analysis_Q_Bank.pdf)**
+> **[📂 Open Document: 01_SWOT_Analysis_Q_Bank.pdf](./01_SWOT_Analysis_Q_Bank.pdf)**
 
 #### 2. ISMS Scope Document
 * **Purpose:** To draw a "boundary" around what the framework protects.
 * **Summary:** Covers all banking operations (Retail, Corporate, ATMs) while excluding non-banking services like outsourced cafeteria maintenance.
 * **Key Concept:** Prevents "Scope Creep" and defines auditor boundaries.
-> **[View Document: 02_ISMS_Scope _Document-Q_Bank.pdf](./02_ISMS_Scope _Document-Q_Bank.pdf)**
+> **[📂 Open Document: 02_ISMS_Scope_Document_Q_Bank.pdf](./02_ISMS_Scope_Document_Q_Bank.pdf)**
 
 #### 3. Information Security Policy (ISP)
 * **Purpose:** The high-level "Law of the Bank" regarding security.
 * **Summary:** Establishes management's commitment to the CIA triad and defines roles (CISO, Staff) in protecting assets.
 * **Key Concept:** The foundational governance document required for enforcement.
-> **[View Document: 03_Information_Security_Policy-Q_Bank.pdf](./03_Information_Security_Policy-Q_Bank.pdf)**
+> **[📂 Open Document: 04_Information_Security_Policy_Q_Bank.pdf](./04_Information_Security_Policy_Q_Bank.pdf)**
 
 ---
 
