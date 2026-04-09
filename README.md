@@ -12,7 +12,7 @@
       
 * **WHY is it needed?** it is a business necessity to:
     * Protect against cyber threats (Ransomware, Phishing).
-    * Avoid legal consequences (GDPR, Banking Regulations).
+    * Avoid legal fines/punishments.
     * Build trust with customers and partners.
       
 * WHO uses it?
@@ -47,19 +47,19 @@ I created the **Q Bank** project to demonstrate how to translate theoretical ISO
 * **Purpose:** To identify internal/external factors affecting the bank's security.
 * **Summary:** Analyzes Q Bank's **Strengths** (Infrastructure), **Weaknesses** (Legacy systems), **Opportunities** (Zero Trust), and **Threats** (Ransomware).
 * **Key Concept:** Helps prioritize where security is most needed.
-> **[📂 Open Document:01_SWOT_Analysis_Q_Bank.pdf](./01_SWOT%20_Analysis_Q_Bank.pdf)**
+> **[📂 Open Document: 01_SWOT_Analysis_Q_Bank.pdf](./01_SWOT%20_Analysis_Q_Bank.pdf)**
 
 #### 2. ISMS Scope Document
 * **Purpose:** To draw a "boundary" around what the framework protects.
 * **Summary:** Covers all banking operations (Retail, Corporate, ATMs) while excluding non-banking services like outsourced cafeteria maintenance.
 * **Key Concept:** Prevents "Scope Creep" and defines auditor boundaries.
-> **[📂 Open Document: 02_ISMS_Scope_Document_Q_Bank.pdf](./02_ISMS_Scope_Document_Q_Bank.pdf)**
+> **[📂 Open Document: 02_ISMS_Scope_Document_Q_Bank.pdf](./02_ISMS_Scope%20_Document-Q_Bank.pdf)**
 
 #### 3. Information Security Policy (ISP)
 * **Purpose:** The high-level "Law of the Bank" regarding security.
 * **Summary:** Establishes management's commitment to the CIA triad and defines roles (CISO, Staff) in protecting assets.
 * **Key Concept:** The foundational governance document required for enforcement.
-> **[📂 Open Document: 04_Information_Security_Policy_Q_Bank.pdf](./04_Information_Security_Policy_Q_Bank.pdf)**
+> **[📂 Open Document: 03_Information_Security_Policy-Q_Bank.pdf](./03_Information_Security_Policy-Q_Bank.pdf)**
 
 ---
 
@@ -70,13 +70,13 @@ I created the **Q Bank** project to demonstrate how to translate theoretical ISO
 * **Purpose:** A realistic "snapshot" of existing security habits.
 * **Summary:** Records current technical strengths (SIEM, EDR) and administrative weaknesses (informal training, ad-hoc audits).
 * **Key Concept:** The "Honesty Phase"—you cannot improve what you haven't measured.
-> **[View Document: current_practices_Q-Bank.pdf](./current_practices_Q-Bank.pdf)**
+> **[📂 Open Document: 04_Current_Practices-Q_Bank.pdf](./04_Current_Practices-Q_Bank.pdf)**
 
 #### 5. ISO 27001 Gap Assessment
 * **Purpose:** A formal audit against the 26 mandatory ISO 27001:2022 requirements.
 * **Summary:** Revealed Q Bank is **23.1% compliant**, highlighting urgent needs for Internal Audit and Corrective Action (CAPA) processes.
 * **Key Concept:** This gap acts as the "To-Do List" for certification.
-> **[View Document: 03_Gap_Assessment_Q-Bank.pdf](./03_Gap_Assessment_Q-Bank.pdf)**
+> **[📂 Open Document: 05_ISO_27001_Gap_Assessment-Q_Bank.pdf](./05_ISO_27001_Gap_Assessment-Q_Bank.pdf)**
 
 ---
 
@@ -87,7 +87,7 @@ I created the **Q Bank** project to demonstrate how to translate theoretical ISO
 * **Purpose:** To identify threats and decide on mitigation strategies.
 * **Summary:** Uses a **5x5 Risk Matrix**. Identified "Unauthorized access to Core Banking" as a High-Level risk (20/25), treated with MFA implementation.
 * **Key Concept:** ISO 27001 is a **risk-based** standard; you apply controls based on specific threats.
-> **[View Document: 05_Risk_Assessment_Q-Bank.pdf](./05_Risk_Assessment_Q-Bank.pdf)**
+> **[📂 Open Document: 06_Risk_Assessment-Q_Bank.pdf](./06_Risk_Assessment-Q_Bank.pdf)**
 
 ---
 
@@ -95,10 +95,12 @@ I created the **Q Bank** project to demonstrate how to translate theoretical ISO
 *The final list of security controls selected for the organization.*
 
 #### 7. Statement of Applicability (SoA)
-* **Purpose:** The master checklist for auditors.
-* **Summary:** Reviews all **93 Annex A controls**. Includes "Network Security" (A.13.1) and justifies the exclusion of irrelevant controls like A.5.6.
-* **Key Concept:** The most requested document by auditors; it is the "Map" of your security infrastructure.
-> **[View Document: Statement_of_Applicability_SoA.pdf](./Statement_of_Applicability_SoA.pdf)**
+* **Purpose:** The master checklist for auditors and "index" for the entire security program.
+* **Summary:** This document tracks all 93 Annex A controls from the ISO/IEC 27001:2022 update. For every control, it states whether it is Applicable or Not Applicable.
+  * 📌Example of Inclusion: Control A.13.1 (Network Security) is included because Q Bank manages high-volume financial transactions.
+  * 📌Example of Exclusion: Control A.5.6 (Contact with special interest groups) was excluded as it is not currently required for the bank's scale.
+* **Key Concept:** The most requested document by auditors. You cannot get certified without an SoA. It is the "Contract" between the company and the auditor that defines exactly which security measures you have promised to maintain.
+> **[📂 Open Document: 07_Statement_of_Applicability(SoA)-Q_Bank.pdf](./07_Statement_of_Applicability(SoA)-Q_Bank.pdf)**
 
 ---
 
