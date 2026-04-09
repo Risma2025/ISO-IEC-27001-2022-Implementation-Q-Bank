@@ -9,12 +9,23 @@
     * **Confidentiality:** Authorized access only.  
     * **Integrity:** Data accuracy and protection from tampering.  
     * **Availability:** Systems are reliable and accessible.
-* **WHY is it needed?** For a financial institution like **Q Bank**, it is a business necessity to:
+      
+* **WHY is it needed?** it is a business necessity to:
     * Protect against cyber threats (Ransomware, Phishing).
-    * Avoid legal fines (GDPR, Banking Regulations).
+    * Avoid legal consequences (GDPR, Banking Regulations).
     * Build trust with customers and partners.
-* **WHO uses it?** Management (Strategy), Security Teams (Controls), and all Employees (Best Practices).
-* **WHEN is it used?** It is a **continuous cycle**, not a one-time project. It requires annual audits to maintain certification.
+      
+* WHO uses it?
+   * Management (Strategy).
+   * Security Teams (Controls).
+   * Employees (Best Practices).
+     
+* **WHEN is it used?** It is a **continuous cycle**, not a one-time project. It requires periodical audits to maintain certification. It follows the PDCA model:
+   * Plan: Find your risks (Risk Assessment).
+   * Do: Fix the risks (Implement controls).
+   * Check: See if the fixes work (Internal Audit).
+   * Act: Fix what didn't work and start over.
+
 * **WHERE is it applied?**(The Scope)It is applied across the entire "Information Security Perimeter."
   * Physically: It covers headquarters, branch offices, and data centers.
   * Logically: It covers the cloud, internal networks, and mobile banking platforms.
